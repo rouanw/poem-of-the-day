@@ -18,14 +18,20 @@ Fetch and display poem of the day:
 sh poemoftheday.sh
 ```
 
+![Example poem output](http://rouanw.github.io/images/poems/poem.png)
+
 Only show a short snippet from the start of the poem:
 
 ```sh
 sh poemoftheday.sh -s
 ```
 
+![Example poem snippet output](http://rouanw.github.io/images/poems/snippet.png)
+
 Show a short snippet from a random point in the poem (may include author information and links):
 
 ```sh
 sh poemoftheday.sh -s -r
 ```
+
+![Example random poem snippet output](http://rouanw.github.io/images/poems/random_snippet.png)
