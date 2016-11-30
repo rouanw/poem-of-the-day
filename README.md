@@ -2,6 +2,14 @@
 
 Fetches the current poem of the day from the [Poetry Foundation](https://www.poetryfoundation.org/) RSS feed.
 
+## Installation
+
+```sh
+brew install rouanw/poem-of-the-day/poem-of-the-day
+```
+
+You'll need to have [Homebrew](http://brew.sh/) installed.
+
 ## Dependencies
 
 This script has been written for *nix systems.
@@ -15,7 +23,7 @@ This script has been written for *nix systems.
 Fetch and display poem of the day:
 
 ```sh
-sh poemoftheday.sh
+poemoftheday
 ```
 
 ![Example poem output](http://rouanw.github.io/images/poems/poem.png)
@@ -23,7 +31,7 @@ sh poemoftheday.sh
 Only show a short snippet from the start of the poem:
 
 ```sh
-sh poemoftheday.sh -s
+poemoftheday -s
 ```
 
 ![Example poem snippet output](http://rouanw.github.io/images/poems/snippet.png)
@@ -31,7 +39,7 @@ sh poemoftheday.sh -s
 Show a short snippet from a random point in the poem (may include author information and links):
 
 ```sh
-sh poemoftheday.sh -s -r
+poemoftheday -s -r
 ```
 
 ![Example random poem snippet output](http://rouanw.github.io/images/poems/random_snippet.png)
